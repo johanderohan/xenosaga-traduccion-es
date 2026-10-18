@@ -1,0 +1,6 @@
+*.nds
+*.xdelta
+traduccion/
+trabajo/
+build*/
+*.st
