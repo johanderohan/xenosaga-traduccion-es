@@ -2,6 +2,8 @@
 
 [![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
 
+Ficha del proyecto, capturas y más traducciones al castellano en **[Parches en Castellano](https://parchesencastellano.com/traducciones/nintendo-ds/xenosaga-i-ii)**.
+
 Traducción al **español de España** de *Xenosaga I・II* (Nintendo DS, 2006),
 la adaptación de Monolith Soft y Tom Create de los episodios I y II de
 *Xenosaga*, publicada por Namco solo en Japón.
