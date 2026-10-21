@@ -13,7 +13,7 @@ necesitas tu propia copia.
 
 ## Estado
 
-Última versión: **[v1.0 — Primera versión completa](../../releases/tag/v1.0)**.
+Última versión: **[v1.0.1 — Menú de opciones traducido](../../releases/tag/v1.0.1)**.
 
 Está traducido del japonés todo el texto del juego que se ha localizado:
 
@@ -22,7 +22,7 @@ Está traducido del japonés todo el texto del juego que se ha localizado:
 | Guion (episodios I y II, historias secundarias y minijuegos) | **17.111 textos traducidos**: todos los que se han encontrado |
 | Objetos, técnicas, éteres, enemigos, descripciones, correos y menús | **6.666 textos traducidos** |
 | Glosario del juego (U.M.N.) | Traducido entero y reordenado alfabéticamente |
-| Texto dentro de imágenes | **284 rótulos e iconos traducidos** (menús, combate, tarjetas de capítulo, minijuegos) |
+| Texto dentro de imágenes | **311 rótulos e iconos traducidos** (menús, combate, tarjetas de capítulo, minijuegos) |
 | Caracteres españoles | **á é í ó ú ü ñ Á É Í Ó Ú Ü Ñ ¡ ¿ « »** |
 
 Los rótulos grandes de marca y los que ya venían en inglés o en alemán en el
@@ -34,6 +34,7 @@ capítulos…) se mantienen como en el juego japonés.
 - La traducción se ha hecho desde el japonés con una biblia de términos, y cada
   bloque ha pasado una revisión editorial cruzada. Ha sido **asistida por IA**
   y **no ha tenido revisión humana independiente**.
+- La v1.0.1 corrige los gráficos de opciones y museo. Solo cambia cuatro recursos respecto a v1.0; el menú de opciones se ha vuelto a probar en melonDS. La revisión del museo es estática.
 - Se ha probado en emulador:
   - **melonDS**: una partida nueva desde el título (prólogo, tutorial de
     combate, menús de campo y de la U.M.N., tienda, guardado, carga y un combate
@@ -73,13 +74,15 @@ capítulos…) se mantienen como en el juego japonés.
 4. Aplica el parche con una de estas herramientas:
    - **Windows**: [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
    - **Linux / macOS**: `xdelta3 -d -s "Xenosaga I & II (Japan).nds" parche.xdelta "Xenosaga I & II (ES).nds"`
-5. Para **v1.0**, la ROM resultante debe tener MD5 **`8959ff9f83153ca309888f0d9a9c4b62`**.
+5. Para **v1.0.1**, la ROM resultante debe tener MD5 **`f1c75805146fb95f50f92cee695c15ef`**.
 6. Carga la ROM resultante en tu emulador o flashcard.
 
 Aplica cada versión sobre la **ROM japonesa original**, nunca sobre una ROM ya
 traducida.
 
 ## Cambios
+
+- **v1.0.1 (21-10-2026)** — Traduce el menú de opciones, sus valores y los rótulos del museo, que se habían omitido en v1.0. Comprobados en melonDS los ajustes, el resaltado de filas, restaurar valores y guardar/salir. Las partidas de v1.0 conservan su formato.
 
 - **v1.0** — Primera versión: guion completo, datos del juego, glosario y
   rótulos de menús y combate.
