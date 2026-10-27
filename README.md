@@ -13,7 +13,7 @@ necesitas tu propia copia.
 
 ## Estado
 
-Última versión: **[v1.0.2 — Teclado latino por defecto](../../releases/tag/v1.0.2)**.
+Última versión: **[v1.0.3 — Nombres de hablante más legibles](../../releases/tag/v1.0.3)**.
 
 Está traducido del japonés todo el texto del juego que se ha localizado:
 
@@ -50,8 +50,9 @@ capítulos…) se mantienen como en el juego japonés.
   pruebas en consola, abre una incidencia y cuéntame cómo ha ido.
 - Al nombrar a la observadora de la serie 100, el teclado abre en letras latinas.
   X cambia de alfabeto. Se conserva el límite de siete caracteres, sin tildes ni ñ.
-- Se ha recibido un aviso de nombres de hablante demasiado pequeños en consola;
-  su mejora de legibilidad está pendiente.
+- Los nombres de hablante de hasta diez caracteres usan una fuente más grande desde
+  v1.0.3. Los nombres largos conservan la letra estrecha para evitar cortes;
+  la mejora se ha comprobado en emulador y queda pendiente valorarla en consola real.
 
 ## Cómo aplicar el parche
 
@@ -76,13 +77,15 @@ capítulos…) se mantienen como en el juego japonés.
 4. Aplica el parche con una de estas herramientas:
    - **Windows**: [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
    - **Linux / macOS**: `xdelta3 -d -s "Xenosaga I & II (Japan).nds" parche.xdelta "Xenosaga I & II (ES).nds"`
-5. Para **v1.0.2**, la ROM resultante debe tener MD5 **`27313bd3762a23ae93e1f8ddc09ed323`**.
+5. Para **v1.0.3**, la ROM resultante debe tener MD5 **`6615aaaf6198d8453ed75b45fd84ad68`**.
 6. Carga la ROM resultante en tu emulador o flashcard.
 
 Aplica cada versión sobre la **ROM japonesa original**, nunca sobre una ROM ya
 traducida.
 
 ## Cambios
+
+- **v1.0.3 (27-10-2026)** — Nombres de hablante más grandes: 73 placas de campo y 16 de combate usan la fuente latina original de 8×8. Los nombres largos conservan la fuente estrecha. Comprobados en melonDS el diálogo y el tutorial de combate; sin ampliar memoria ni cambiar el formato de las partidas.
 
 - **v1.0.2 (27-10-2026)** — Teclado latino seleccionado al abrir y ayuda «X: alfabeto». Probados escritura, borrado, cambio de alfabeto y confirmación en melonDS. Se conserva el formato de las partidas.
 
