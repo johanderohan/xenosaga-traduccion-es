@@ -13,7 +13,7 @@ necesitas tu propia copia.
 
 ## Estado
 
-Última versión: **[v1.0.1 — Menú de opciones traducido](../../releases/tag/v1.0.1)**.
+Última versión: **[v1.0.2 — Teclado latino por defecto](../../releases/tag/v1.0.2)**.
 
 Está traducido del japonés todo el texto del juego que se ha localizado:
 
@@ -48,8 +48,10 @@ capítulos…) se mantienen como en el juego japonés.
   El parche amplía un búfer interno para que quepan los diálogos en español;
   en emulador funciona, pero en hardware está pendiente de confirmar. Si lo
   pruebas en consola, abre una incidencia y cuéntame cómo ha ido.
-- El nombre del protagonista se escribe con el teclado del juego, que no tiene
-  tildes ni ñ.
+- Al nombrar a la observadora de la serie 100, el teclado abre en letras latinas.
+  X cambia de alfabeto. Se conserva el límite de siete caracteres, sin tildes ni ñ.
+- Se ha recibido un aviso de nombres de hablante demasiado pequeños en consola;
+  su mejora de legibilidad está pendiente.
 
 ## Cómo aplicar el parche
 
@@ -74,13 +76,15 @@ capítulos…) se mantienen como en el juego japonés.
 4. Aplica el parche con una de estas herramientas:
    - **Windows**: [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
    - **Linux / macOS**: `xdelta3 -d -s "Xenosaga I & II (Japan).nds" parche.xdelta "Xenosaga I & II (ES).nds"`
-5. Para **v1.0.1**, la ROM resultante debe tener MD5 **`f1c75805146fb95f50f92cee695c15ef`**.
+5. Para **v1.0.2**, la ROM resultante debe tener MD5 **`27313bd3762a23ae93e1f8ddc09ed323`**.
 6. Carga la ROM resultante en tu emulador o flashcard.
 
 Aplica cada versión sobre la **ROM japonesa original**, nunca sobre una ROM ya
 traducida.
 
 ## Cambios
+
+- **v1.0.2 (27-10-2026)** — Teclado latino seleccionado al abrir y ayuda «X: alfabeto». Probados escritura, borrado, cambio de alfabeto y confirmación en melonDS. Se conserva el formato de las partidas.
 
 - **v1.0.1 (21-10-2026)** — Traduce el menú de opciones, sus valores y los rótulos del museo, que se habían omitido en v1.0. Comprobados en melonDS los ajustes, el resaltado de filas, restaurar valores y guardar/salir. Las partidas de v1.0 conservan su formato.
 
